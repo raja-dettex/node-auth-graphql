@@ -1,0 +1,35 @@
+{
+  "name": "graphql-node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child src/index.ts",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@prisma/client": "^4.11.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/graphql": "^14.5.0",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.14.6",
+    "prisma": "^4.11.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.16",
+    "bcryptjs": "^2.4.3",
+    "fastify": "^4.14.0",
+    "graphql": "^16.6.0",
+    "graphql-helix": "^1.13.0",
+    "graphql-import-node": "^0.0.5",
+    "graphql-subscriptions": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "typed-graphql-subscriptions": "^0.0.1"
+  }
+}
